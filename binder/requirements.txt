@@ -1,5 +1,6 @@
 ipython
 snakemake
 matplotlib
+graphviz
 scipy
 jupyterlab_launcher>=0.5.0
