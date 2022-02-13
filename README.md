@@ -9,3 +9,37 @@ Workflow @ENCCB training delivered 15-16th February 2022.
 
 You can launch the demo Jupyter Notebook used to introduce Snakemake on Binder 
 [by using this link](https://mybinder.org/v2/gh/olouant/enccb-workflow-snakemake/master).
+
+## Useful Links
+
+- [Snakemake Documentation](https://snakemake.readthedocs.io/en/stable/)
+- [Installing Snakemake](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html)
+
+## Launch the Demo on your Own Computer
+
+You can launch  MacOS, Linux or Windows subsystem for Linux
+
+```
+git clone https://github.com/olouant/enccb-workflow-snakemake.git && \
+cd enccb-workflow-snakemake
+```
+
+Assuming you have Python 3 installed on your machine, create a virtual 
+environment, activate it and install the required dependencies.
+
+```
+python3 -m venv demoenv && \
+source ./demoenv/bin/activate && \
+pip install -r ./envs/requirements.txt
+```
+
+Then you can launch Jupyter Lab and open the URL provided in the output in your
+browser
+
+```
+jupyter lab
+```
+
+Note the `dot` command provided by Graphviz is required to generate the
+DAG images. See [here](https://graphviz.org/download/) to see how to install
+this tool for your OS.
