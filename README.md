@@ -5,15 +5,15 @@
 This repository contains the material used for the Snakemake session of the HPC 
 Workflow @ENCCB training delivered 15-16th February 2022.
 
-## Launch the Demo Notebook on Binder
-
-You can launch the demo Jupyter Notebook used to introduce Snakemake on Binder 
-[by using this link](https://mybinder.org/v2/gh/olouant/enccb-workflow-snakemake/master).
-
 ## Useful Links
 
 - [Snakemake Documentation](https://snakemake.readthedocs.io/en/stable/)
 - [Installing Snakemake](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html)
+
+## Launch the Demo Notebook on Binder
+
+You can launch the demo Jupyter Notebook used to introduce Snakemake on Binder 
+[by using this link](https://mybinder.org/v2/gh/olouant/enccb-workflow-snakemake/master).
 
 ## Launch the Demo on your Own Computer
 
